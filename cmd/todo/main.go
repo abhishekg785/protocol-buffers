@@ -31,7 +31,10 @@ func main() {
 	fmt.Println("TODO")
 }
 
+const dbPath = "mydb.pd"
+
 func add(text string) error {
+	task := &todo.Task{}
 	return nil
 }
 
